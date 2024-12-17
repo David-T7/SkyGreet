@@ -14,12 +14,15 @@ export default function Home() {
         >
           <div className="absolute inset-0 bg-blue-600 opacity-60 z-0"></div> {/* Light blue overlay */}
           <div className="relative z-10">
-            <h1 className="text-5xl font-thin mb-4 text-white"> {/* Text color set to white */}
-              Welcome to Airport Meet & Greet Service
-            </h1>
-            <p className="text-xl mb-8 text-white"> {/* Text color set to white */}
-              Experience seamless travel with personalized assistance at every step.
-            </p>
+          <h1 className="text-5xl font-thin mb-4 text-white"> 
+  Welcome to Sky Greet Service
+</h1>
+<p className="text-xl text-white text-center px-6 sm:px-12">
+  Enjoy a seamless journey with personalized assistance at every step, from check-ins to priority security access.
+</p>
+<p className="text-xl mb-8 text-white text-center px-6 sm:px-12">
+Our meet and greet service ensures you a hassle-free journey, from arrival to departure, 
+</p>
             <a
             href="/contact"
             className="border-2 border-white text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-900 hover:text-white transition duration-300"
@@ -123,7 +126,7 @@ export default function Home() {
         {/* Footer */}
         <div className="bg-blue-900 text-white shadow-md py-8 text-center">
           <p className="text-md">
-            &copy; {new Date().getFullYear()} Airport Meet & Greet Service. All rights reserved.
+            &copy; {new Date().getFullYear()} Sky Greet Service. All rights reserved.
           </p>
         </div>
       </div>

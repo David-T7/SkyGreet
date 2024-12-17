@@ -26,8 +26,11 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <div className="text-2xl font-semibold">
-            <img src="/images/logo.png" alt="Logo" className="h-14 w-24" /> {/* Replace with your logo image */}
+         {/* Logo with Link */}
+         <div className="text-2xl font-semibold">
+            <Link href="/">
+              <img src="/images/logo.png" alt="Logo" className="h-14 w-24" /> {/* Replace with your logo image */}
+            </Link>
           </div>
 
           {/* Desktop Navigation */}

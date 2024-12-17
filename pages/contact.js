@@ -109,7 +109,7 @@ export default function Contact() {
       {/* Footer */}
       <div className="bg-blue-900 text-white shadow-md py-8 text-center">
         <p className="text-md">
-          &copy; {new Date().getFullYear()} Airport Meet & Greet Service. All rights reserved.
+          &copy; {new Date().getFullYear()} Sky Greet Service. All rights reserved.
         </p>
       </div>
     </div>
