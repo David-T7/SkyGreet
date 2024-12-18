@@ -1,5 +1,4 @@
 import { FaWhatsapp } from 'react-icons/fa';
-
 export default function Home() {
     return (
         <div className="bg-white text-gray-800 min-h-screen flex flex-col">
@@ -39,6 +38,21 @@ Our meet and greet service ensures you a hassle-free journey, from arrival to de
             Our Services
           </h2>
           <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+
+          <div className="bg-gray-100 p-6 rounded-lg shadow">
+              <img
+                src="/images/arrivals.jpg"
+                alt="Arrivals"
+                className="w-full h-40 object-cover rounded-lg mb-4"
+              />
+              <h3 className="text-2xl font-thin mb-3 text-gray-600">Arrivals</h3>
+              <p>
+              Enjoy stress-free travel from the moment you arrive at the airport. Our
+              greeters will assist with check-in, security, and access to VIP lounges.
+              </p>
+            </div>
+
+
             <div className="bg-gray-100 p-6 rounded-lg shadow">
               <img
                 src="/images/departures.jpg"
@@ -47,23 +61,12 @@ Our meet and greet service ensures you a hassle-free journey, from arrival to de
               />
               <h3 className="text-2xl font-thin mb-3 text-gray-600">Departures</h3>
               <p>
-                Enjoy stress-free travel from the moment you arrive at the airport. Our
-                greeters will assist with check-in, security, and access to VIP lounges.
-              </p>
-            </div>
-            <div className="bg-gray-100 p-6 rounded-lg shadow">
-              <img
-                src="/images/arrivals.jpg"
-                alt="Arrivals"
-                className="w-full h-40 object-cover rounded-lg mb-4"
-              />
-              <h3 className="text-2xl font-thin mb-3 text-gray-600">Arrivals</h3>
-              <p>
                 Seamlessly transition from the aircraft to your destination with our
                 meet-and-greet service. We’ll assist with immigration, baggage, and
                 transportation.
               </p>
             </div>
+            
             <div className="bg-gray-100 p-6 rounded-lg shadow">
               <img
                 src="/images/transfers.jpg"
@@ -91,7 +94,7 @@ Our meet and greet service ensures you a hassle-free journey, from arrival to de
       <div className="bg-white p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
         <h3 className="text-2xl font-normal mb-2 text-gray-800">No Hassle</h3>
         <p className="text-gray-600">
-          Say goodbye to long lines and wait times. We expedite every step of the
+          Say goodbye to long lines and wait times. We hanlde every step of the
           process.
         </p>
       </div>
