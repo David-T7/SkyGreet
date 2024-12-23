@@ -17,8 +17,7 @@ export default function Home() {
   Welcome to Sky Greet Service
 </h1>
 <p className="text-lg text-white text-center px-6 sm:px-12">
-Simplify your travel with our Airport Meet and Greet Service. We assist with arrivals, departures, and smooth flight connections, handling check-ins, security, customs, and baggage claim. Enjoy lounge access for a relaxed experience. Ideal for hassle-free travel.
-</p>
+Simplify your travel with our Airport Meet and Greet Service. We assist with arrivals, departures, and smooth flight connections, handling check-ins, security, customs, and baggage claim. Enjoy lounge access for a relaxed experience. Ideal for hassle-free travel.</p>
 <p className="text-lg mb-8 text-white text-center px-6 sm:px-12">
 Let us handle the airport so you can focus on your trip.
 </p>
