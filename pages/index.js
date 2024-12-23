@@ -16,11 +16,11 @@ export default function Home() {
           <h1 className="text-5xl font-thin mb-4 text-white"> 
   Welcome to Sky Greet Service
 </h1>
-<p className="text-xl text-white text-center px-6 sm:px-12">
-  Enjoy a seamless journey with personalized assistance at every step, from check-ins to priority security access.
+<p className="text-lg text-white text-center px-6 sm:px-12">
+Simplify your travel with our Airport Meet and Greet Service. We assist with arrivals, departures, and smooth flight connections, handling check-ins, security, customs, and baggage claim. Enjoy lounge access for a relaxed experience. Ideal for hassle-free travel.
 </p>
-<p className="text-xl mb-8 text-white text-center px-6 sm:px-12">
-Our meet and greet service ensures you a hassle-free journey, from arrival to departure, 
+<p className="text-lg mb-8 text-white text-center px-6 sm:px-12">
+Let us handle the airport so you can focus on your trip.
 </p>
             <a
             href="/contact"
@@ -45,10 +45,9 @@ Our meet and greet service ensures you a hassle-free journey, from arrival to de
                 alt="Arrivals"
                 className="w-full h-40 object-cover rounded-lg mb-4"
               />
-              <h3 className="text-2xl font-thin mb-3 text-gray-600">Arrivals</h3>
+              <h3 className="text-2xl font-thin mb-3 text-gray-600">Arrival</h3>
               <p>
-              Enjoy stress-free travel from the moment you arrive at the airport. Our
-              greeters will assist with check-in, security, and access to VIP lounges.
+              Enjoy a stress-free welcome at the airport. Our staff meets you at the gate, assists through immigration, customs and with your luggage, ensuring a smooth exit.
               </p>
             </div>
 
@@ -59,11 +58,9 @@ Our meet and greet service ensures you a hassle-free journey, from arrival to de
                 alt="Departures"
                 className="w-full h-40 object-cover rounded-lg mb-4"
               />
-              <h3 className="text-2xl font-thin mb-3 text-gray-600">Departures</h3>
+              <h3 className="text-2xl font-thin mb-3 text-gray-600">Departure</h3>
               <p>
-                Seamlessly transition from the aircraft to your destination with our
-                meet-and-greet service. We’ll assist with immigration, baggage, and
-                transportation.
+              We handle check-in, fast-track security, passport control and offer lounge access, making your departure seamless and relaxing.
               </p>
             </div>
             
@@ -73,10 +70,9 @@ Our meet and greet service ensures you a hassle-free journey, from arrival to de
                 alt="Transfers"
                 className="w-full h-40 object-cover rounded-lg mb-4"
               />
-              <h3 className="text-2xl font-thin mb-3 text-gray-600">Transfers</h3>
+              <h3 className="text-2xl font-thin mb-3 text-gray-600">Transit</h3>
               <p>
-                Connect effortlessly between flights with our transit assistance. Relax
-                in VIP lounges while we handle the logistics.
+              We ensure you catch your connecting flight without hassle, guiding you through the airport to your next gate efficiently.
               </p>
             </div>
           </div>
