@@ -19,13 +19,14 @@ export default function Home() {
         />
           <div className="absolute inset-0 bg-blue-600 opacity-60 z-0"></div> {/* Light blue overlay */}
           <div className="relative z-10">
-          <h1 className="text-5xl font-thin mb-4 text-white"> 
+          <h1 className="text-5xl font-thin p-2 mb-4 text-white"> 
   Welcome to Sky Greet Service
 </h1>
-<p className="text-lg text-white text-center px-6 sm:px-12">
-Simplify your travel with our Airport Meet and Greet Service. We assist with arrivals, departures, and smooth flight connections, handling check-ins, security, customs, and baggage claim. Enjoy lounge access for a relaxed experience. Ideal for hassle-free travel.</p>
-<p className="text-lg mb-8 text-white text-center px-6 sm:px-12">
-Let us handle the airport so you can focus on your trip.
+  <p className="text-lg text-white text-center px-6 sm:px-12">
+    Make travel easier with our Airport Meet and Greet Service. We handle everything from arrivals to baggage claim and offer lounge access.
+  </p>
+  <p className="text-lg mb-8 text-white text-center px-6 sm:px-12">
+  Let us handle the airport so you can focus on your trip.
 </p>
             <a
             href="/contact"
@@ -96,7 +97,7 @@ Let us handle the airport so you can focus on your trip.
         </div>
   
       {/* Why Us Section */}
-<div className="bg-gray-50 py-16 text-center">
+<div className="bg-gray-50 px-4 py-16 text-center">
   <h2 className="text-4xl font-thin mb-6 text-gray-700">Why Choose Us?</h2>
   <div className="max-w-4xl mx-auto">
     <p className="text-lg mb-6 text-gray-600">
