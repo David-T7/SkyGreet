@@ -10,7 +10,7 @@ export default function Services() {
              {/* Hero Background Image */}
              <Image
                src="/images/hero-white.jpg"
-               alt="Hero Background"
+               alt="Sky Greet Service"
                layout="fill" // Ensures the image covers the background
                objectFit="cover" // Keeps the image properly scaled
                objectPosition="center"
@@ -53,7 +53,7 @@ export default function Services() {
             <div className="bg-gray-100 p-6 rounded-lg shadow">
                <Image
                         src="/images/departures.jpg"
-                        alt="Transit"
+                        alt="Departure"
                         width={400}
                         height={200}
                         layout="responsive"

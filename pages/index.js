@@ -9,7 +9,7 @@ export default function Home() {
         {/* Hero Background Image */}
         <Image
           src="/images/hero-white.jpg"
-          alt="Hero Background"
+          alt="Sky Greet Service"
           layout="fill" // Ensures the image covers the background
           objectFit="cover" // Keeps the image properly scaled
           objectPosition="center"
@@ -47,7 +47,7 @@ Let us handle the airport so you can focus on your trip.
           <div className="bg-gray-100 p-6 rounded-lg shadow">
           <Image
           src="/images/arrivals.jpg"
-          alt="Arrivals"
+          alt="Arrival"
           width={400}
           height={200}
           layout="responsive"
@@ -64,7 +64,7 @@ Let us handle the airport so you can focus on your trip.
             <div className="bg-gray-100 p-6 rounded-lg shadow">
             <Image
           src="/images/departures.jpg"
-          alt="Arrivals"
+          alt="Departure"
           width={400}
           height={200}
           layout="responsive"
