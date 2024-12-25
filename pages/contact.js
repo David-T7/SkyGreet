@@ -52,6 +52,19 @@ export default function Contact() {
         {/* Contact Heading */}
         <h2 className="text-2xl font-normal text-center mb-4 text-gray-700">Contact Us</h2>
 
+        {/* Contact Info */}
+        <div className="max-w-md mx-auto mb-8 text-center">
+          <p className="text-lg font-medium text-gray-700">
+            <strong>Email:</strong> skygreetservice@gmail.com
+          </p>
+          {/* <p className="text-lg font-medium text-gray-700">
+            <strong>Phone:</strong> +251900666742
+          </p> */}
+          <p className="text-gray-600 mt-2">
+            Our team will reply to your message in a short time.
+          </p>
+        </div>
+
         {/* Contact Form */}
         <form className="max-w-md mx-auto" onSubmit={handleSubmit}>
           <div className="mb-6">
