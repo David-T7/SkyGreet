@@ -6,14 +6,18 @@ export default function Services() {
   return (
     <div className="bg-white text-gray-800 min-h-screen flex flex-col">
       {/* Hero Section */}
-      <div
-        className="flex flex-col justify-center items-center text-center py-20 bg-cover bg-center relative"
-        style={{
-          backgroundImage: "url('/images/hero-white.jpg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
+     <div className="relative flex flex-col justify-center items-center text-center py-20 bg-cover bg-center">
+             {/* Hero Background Image */}
+             <Image
+               src="/images/hero-white.jpg"
+               alt="Hero Background"
+               layout="fill" // Ensures the image covers the background
+               objectFit="cover" // Keeps the image properly scaled
+               objectPosition="center"
+               quality={75} // Adjusts the quality for optimization (default is 75)
+               priority // Ensures this image loads as high priority
+               className="z-0"
+             />
         <div className="absolute inset-0 bg-blue-600 opacity-60 z-0"></div>
         <div className="relative z-10">
           <p className="text-2xl mb-8 text-white">
