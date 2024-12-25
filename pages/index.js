@@ -1,16 +1,22 @@
 import { FaWhatsapp } from 'react-icons/fa';
+import Image from 'next/image';
+
 export default function Home() {
     return (
         <div className="bg-white text-gray-800 min-h-screen flex flex-col">
         {/* Hero Section */}
-        <div
-          className="flex flex-col justify-center items-center text-center py-20 bg-cover bg-center relative"
-          style={{
-            backgroundImage: "url('/images/hero-white.jpg')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        >
+        <div className="relative flex flex-col justify-center items-center text-center py-20 bg-cover bg-center">
+        {/* Hero Background Image */}
+        <Image
+          src="/images/hero-white.jpg"
+          alt="Hero Background"
+          layout="fill" // Ensures the image covers the background
+          objectFit="cover" // Keeps the image properly scaled
+          objectPosition="center"
+          quality={75} // Adjusts the quality for optimization (default is 75)
+          priority // Ensures this image loads as high priority
+          className="z-0"
+        />
           <div className="absolute inset-0 bg-blue-600 opacity-60 z-0"></div> {/* Light blue overlay */}
           <div className="relative z-10">
           <h1 className="text-5xl font-thin mb-4 text-white"> 
@@ -39,11 +45,15 @@ Let us handle the airport so you can focus on your trip.
           <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
 
           <div className="bg-gray-100 p-6 rounded-lg shadow">
-              <img
-                src="/images/arrivals.jpg"
-                alt="Arrivals"
-                className="w-full h-40 object-cover rounded-lg mb-4"
-              />
+          <Image
+          src="/images/arrivals.jpg"
+          alt="Arrivals"
+          width={400}
+          height={200}
+          layout="responsive"
+          priority // Makes it load faster
+          className="object-cover rounded-lg mb-4"
+          />
               <h3 className="text-2xl font-thin mb-3 text-gray-600">Arrival</h3>
               <p>
               Enjoy a stress-free welcome at the airport. Our staff meets you at the gate, assists through immigration, customs and with your luggage, ensuring a smooth exit.
@@ -52,11 +62,15 @@ Let us handle the airport so you can focus on your trip.
 
 
             <div className="bg-gray-100 p-6 rounded-lg shadow">
-              <img
-                src="/images/departures.jpg"
-                alt="Departures"
-                className="w-full h-40 object-cover rounded-lg mb-4"
-              />
+            <Image
+          src="/images/departures.jpg"
+          alt="Arrivals"
+          width={400}
+          height={200}
+          layout="responsive"
+          priority // Makes it load faster
+          className="object-cover rounded-lg mb-4"
+          />
               <h3 className="text-2xl font-thin mb-3 text-gray-600">Departure</h3>
               <p>
               We handle check-in, fast-track security, passport control and offer lounge access, making your departure seamless and relaxing.
@@ -64,11 +78,15 @@ Let us handle the airport so you can focus on your trip.
             </div>
             
             <div className="bg-gray-100 p-6 rounded-lg shadow">
-              <img
-                src="/images/transfers.jpg"
-                alt="Transfers"
-                className="w-full h-40 object-cover rounded-lg mb-4"
-              />
+               <Image
+          src="/images/transfers.jpg"
+          alt="Transit"
+          width={400}
+          height={200}
+          layout="responsive"
+          priority // Makes it load faster
+          className="object-cover rounded-lg mb-4"
+          />
               <h3 className="text-2xl font-thin mb-3 text-gray-600">Transit</h3>
               <p>
               We ensure you catch your connecting flight without hassle, guiding you through the airport to your next gate efficiently.
