@@ -1,9 +1,33 @@
 import { FaWhatsapp } from 'react-icons/fa';
 import Image from 'next/image';
+import Head from 'next/head';
 
 export default function Home() {
-    return (
-        <div className="bg-white text-gray-800 min-h-screen flex flex-col">
+  return (
+      <div className="bg-white text-gray-800 min-h-screen flex flex-col">
+          <Head>
+              <title>Sky Greet Service | Airport Meet and Greet in Addis Ababa</title>
+              <meta
+                  name="description"
+                  content="Sky Greet Service offers professional airport meet and greet services in Addis Ababa, Ethiopia. From arrivals to departures, we make your travel seamless and stress-free."
+              />
+              <meta name="viewport" content="width=device-width, initial-scale=1" />
+              <meta charSet="UTF-8" />
+              <meta name="author" content="Sky Greet Service" />
+              <meta
+                  name="keywords"
+                  content="Airport meet and greet Addis Ababa, travel assistance Ethiopia, arrivals, departures, transit service"
+              />
+              <meta property="og:title" content="Sky Greet Service | Airport Meet and Greet in Addis Ababa" />
+              <meta
+                  property="og:description"
+                  content="Make your travel effortless with our premium meet and greet services. We handle all aspects of airport navigation so you can focus on your journey."
+              />
+              <meta property="og:image" content="/images/hero-white.jpg" />
+              <meta property="og:url" content="https://yourwebsite.com" /> {/* Replace with your domain */}
+              <meta property="og:type" content="website" />
+              <link rel="icon" href="/favicon.ico" />
+          </Head>
         {/* Hero Section */}
         <div className="relative flex flex-col justify-center items-center text-center py-20 bg-cover bg-center">
         {/* Hero Background Image */}
