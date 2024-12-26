@@ -43,9 +43,9 @@ export default function Home() {
         />
           <div className="absolute inset-0 bg-blue-600 opacity-60 z-0"></div> {/* Light blue overlay */}
           <div className="relative z-10">
-          <h1 className="text-5xl font-thin p-2 mb-4 text-white"> 
-  Welcome to Sky Greet Service
-</h1>
+          <h1 className="text-3xl font-thin p-2 mb-4 text-white"> 
+          Airport Meet and Greet in Addis Ababa, Ethiopia.
+          </h1>
   <p className="text-lg text-white text-center px-6 sm:px-12">
     Make travel easier with our Airport Meet and Greet Service. We handle everything from arrivals to baggage claim and offer lounge access.
   </p>
