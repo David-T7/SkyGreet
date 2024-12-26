@@ -1,5 +1,5 @@
 // pages/services.js
-
+import { FaWhatsapp } from "react-icons/fa";
 import Image from 'next/image';
 
 export default function Services() {
@@ -82,6 +82,15 @@ export default function Services() {
               </p>
             </div>
           </div>
+           {/* WhatsApp Contact */}
+                  <a
+                    href="https://wa.me/+251900666742" // Replace with your WhatsApp number
+                    className="fixed bottom-6 right-6 bg-green-500 p-4 rounded-full shadow-lg text-white text-3xl hover:bg-green-600 transition duration-300"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaWhatsapp />
+                  </a>
         </div>
 
       {/* Footer */}

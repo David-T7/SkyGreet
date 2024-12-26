@@ -21,7 +21,7 @@ export default function Price() {
                 Ideal for single travelers or occasional users looking for essential support.
               </p>
               <p className="text-4xl font-bold text-blue-900 mb-6">
-                $79<span className="text-lg font-normal">/trip</span>
+                $99<span className="text-lg font-normal">/trip</span>
               </p>
               <ul className="space-y-3 text-gray-700 mb-6">
                 <li>✔ Meet & Greet</li>
@@ -44,7 +44,7 @@ export default function Price() {
                 Perfect for frequent travelers seeking added convenience and comfort.
               </p>
               <p className="text-4xl font-bold text-blue-900 mb-6">
-                $129<span className="text-lg font-normal">/trip</span>
+                $149<span className="text-lg font-normal">/trip</span>
               </p>
               <ul className="space-y-3 text-gray-700 mb-6">
                 <li>✔ Meet & Greet</li>
@@ -67,7 +67,7 @@ export default function Price() {
                 Best for VIP travelers wanting luxury and top-tier services.
               </p>
               <p className="text-4xl font-bold text-blue-900 mb-6">
-                $179<span className="text-lg font-normal">/trip</span>
+                $199<span className="text-lg font-normal">/trip</span>
               </p>
               <ul className="space-y-3 text-gray-700 mb-6">
                 <li>✔ Meet & Greet</li>
@@ -83,7 +83,7 @@ export default function Price() {
           </div>
         </div>
         <a
-          href="https://wa.me/11234567890" // Replace with your WhatsApp number
+          href="https://wa.me/+251900666742" // Replace with your WhatsApp number
           className="fixed bottom-6 right-6 bg-green-500 p-4 rounded-full shadow-lg text-white text-3xl hover:bg-green-600 transition duration-300"
           target="_blank"
           rel="noopener noreferrer"

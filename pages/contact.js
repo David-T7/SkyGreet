@@ -13,6 +13,9 @@ export default function Contact() {
     email: "",
     message: "",
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [successMessage, setSuccessMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handleChange = (e) => {
     setFormData({
@@ -25,9 +28,9 @@ export default function Contact() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-
+    setIsSubmitting(true);
     const newErrors = {};
     if (!formData.name.trim()) newErrors.name = "Name is required.";
     if (!formData.email.trim()) {
@@ -41,7 +44,46 @@ export default function Contact() {
 
     // If no errors, proceed with form submission logic
     if (Object.keys(newErrors).length === 0) {
-      alert("Form submitted successfully!"); // Replace with your logic
+      const emailContent = `
+      Name: ${formData.name}
+      Email: ${formData.email}
+      Message: ${formData.message}
+    `;
+
+    try {
+      const response = await fetch("/api/send-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          to: "skygreetcontact@gmail.com",
+          from: "skygreetservice@gmail.com",
+          subject: "Service Request",
+          text: emailContent,
+        }),
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        setSuccessMessage("Thank you! Your request has been submitted.");
+        setErrorMessage("");
+        setFormData({
+          name: "",
+          email: "",
+          message: "",
+        });
+      } else {
+        setErrorMessage("Error: " + result.error);
+        setSuccessMessage("");
+      }
+    } catch (error) {
+      console.error("Error submitting the form:", error);
+      setErrorMessage("There was an issue submitting your request. Please try again later.");
+      setSuccessMessage("");
+    }
+
+    setIsSubmitting(false);
+
     }
   };
 
@@ -103,14 +145,17 @@ export default function Contact() {
           <button
             type="submit"
             className="bg-blue-500 px-6 py-3 rounded-lg text-lg text-white hover:bg-blue-600 transition duration-300 w-full"
-          >
-            Send Message
-          </button>
+            disabled={isSubmitting}
+            >
+              {isSubmitting ? "Sending..." : "Send Message"}
+            </button>
+            {successMessage && <p className="mt-2 text-center text-green-600">{successMessage}</p>}
+            {errorMessage && <p className="mt-2 text-center text-red-600">{errorMessage}</p>}
         </form>
 
         {/* WhatsApp Contact */}
         <a
-          href="https://wa.me/11234567890" // Replace with your WhatsApp number
+          href="https://wa.me/+251900666742" // Replace with your WhatsApp number
           className="fixed bottom-6 right-6 bg-green-500 p-4 rounded-full shadow-lg text-white text-3xl hover:bg-green-600 transition duration-300"
           target="_blank"
           rel="noopener noreferrer"
