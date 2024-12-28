@@ -85,6 +85,9 @@ export default function Contact() {
     setIsSubmitting(false);
 
     }
+    else{
+      setIsSubmitting(false);
+    }
   };
 
   return (
