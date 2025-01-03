@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.skygreetservice.com/
+
+# Sitemaps
+Sitemap: https://www.skygreetservice.com/sitemap.xml
