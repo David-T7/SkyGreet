@@ -6,7 +6,8 @@ export default function Home() {
   return (
       <div className="bg-white text-gray-800 min-h-screen flex flex-col">
           <Head>
-              <title>Sky Greet Service | Airport Meet and Greet in Addis Ababa</title>
+              <title>Sky Greet Service |   Airport Meet and Greet in Addis Ababa, Ethiopia
+              </title>
               <meta
                   name="description"
                   content="Sky Greet Service offers professional airport meet and greet services in Addis Ababa, Ethiopia. From arrivals to departures, we make your travel seamless and stress-free."
@@ -73,7 +74,7 @@ export default function Home() {
           <div className="bg-gray-100 p-6 rounded-lg shadow">
           <Image
           src="/images/arrivals.jpg"
-          alt="Arrival"
+          alt="Arrival at Addis Ababa airport meet and greet service in Ethiopia"
           width={400}
           height={200}
           layout="responsive"
@@ -90,7 +91,7 @@ export default function Home() {
             <div className="bg-gray-100 p-6 rounded-lg shadow">
             <Image
           src="/images/departures.jpg"
-          alt="Departure"
+          alt="Departure assistance at Addis Ababa airport in Ethiopia"
           width={400}
           height={200}
           layout="responsive"
@@ -106,7 +107,7 @@ export default function Home() {
             <div className="bg-gray-100 p-6 rounded-lg shadow">
                <Image
           src="/images/transfers.jpg"
-          alt="Transit"
+          alt="Transit support at Addis Ababa airport meet and greet"
           width={400}
           height={200}
           layout="responsive"
