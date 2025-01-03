@@ -26,7 +26,7 @@ export default function Home() {
               <meta property="og:image" content="/images/hero-white.jpg" />
               <meta property="og:url" content="https://yourwebsite.com" /> {/* Replace with your domain */}
               <meta property="og:type" content="website" />
-              <link rel="icon" type="image/png" sizes="32x32" href="images/logo.png" />
+              <link rel="icon" type="image/png" sizes="192x192" href="images/logo.png" />
           </Head>
         {/* Hero Section */}
         <div className="relative flex flex-col justify-center items-center text-center py-20 bg-cover bg-center">
