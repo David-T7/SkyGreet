@@ -11,6 +11,7 @@ export default function Home() {
                   name="description"
                   content="Sky Greet Service offers professional airport meet and greet services in Addis Ababa, Ethiopia. From arrivals to departures, we make your travel seamless and stress-free."
               />
+              <meta name="google-site-verification" content="vqXcGe3Nam-uuxbEH-109zuEkUlHirzLyLIexm8Hm3E" />
               <meta name="viewport" content="width=device-width, initial-scale=1" />
               <meta charSet="UTF-8" />
               <meta name="author" content="Sky Greet Service" />
