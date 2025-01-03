@@ -6,7 +6,7 @@ export default function Home() {
   return (
       <div className="bg-white text-gray-800 min-h-screen flex flex-col">
           <Head>
-              <title>Sky Greet Service |   Airport Meet and Greet in Addis Ababa, Ethiopia
+              <title>Sky Greet Service |  Airport Meet and Greet in Addis Ababa, Ethiopia
               </title>
               <meta
                   name="description"
@@ -83,7 +83,7 @@ export default function Home() {
           />
               <h3 className="text-2xl font-thin mb-3 text-gray-600">Arrival</h3>
               <p>
-              Enjoy a stress-free welcome at the airport. Our staff meets you at the gate, assists through immigration, customs and with your luggage, ensuring a smooth exit.
+              Enjoy a stress-free welcome at the airport in Addis Ababa , Ethiopia. Our staff meets you at the gate, assists through immigration, customs and with your luggage, ensuring a smooth exit.
               </p>
             </div>
 
@@ -100,8 +100,8 @@ export default function Home() {
           />
               <h3 className="text-2xl font-thin mb-3 text-gray-600">Departure</h3>
               <p>
-              We handle check-in, fast-track security, passport control and offer lounge access, making your departure seamless and relaxing.
-              </p>
+              We handle check-in, fast-track security, passport control, and offer lounge access at airports in Addis Ababa, Ethiopia, making your departure seamless and relaxing.
+            </p>
             </div>
             
             <div className="bg-gray-100 p-6 rounded-lg shadow">
@@ -116,8 +116,7 @@ export default function Home() {
           />
               <h3 className="text-2xl font-thin mb-3 text-gray-600">Transit</h3>
               <p>
-              We ensure you catch your connecting flight without hassle, guiding you through the airport to your next gate efficiently.
-              </p>
+              We ensure you catch your connecting flight without hassle, guiding you through the  airports in Ethiopia, to your next gate efficiently.              </p>
             </div>
           </div>
         </div>
@@ -128,7 +127,7 @@ export default function Home() {
   <div className="max-w-4xl mx-auto">
     <p className="text-lg mb-6 text-gray-600">
       From the moment you arrive to your destination, we anticipate your every
-      need. Our VIP services ensure a stress-free and enjoyable travel experience.
+      need. Our VIP meet and greet services ensure a stress-free and enjoyable travel experience.
     </p>
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
       <div className="bg-white p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
@@ -169,7 +168,7 @@ export default function Home() {
         {/* Footer */}
         <div className="bg-blue-900 text-white shadow-md py-8 text-center">
           <p className="text-md">
-            &copy; {new Date().getFullYear()} Sky Greet Service. All rights reserved.
+          &copy; {new Date().getFullYear()} Sky Greet Service. All rights reserved. Providing exceptional meet and greet services in Addis Ababa, Ethiopia.
           </p>
         </div>
       </div>
