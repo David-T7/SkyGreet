@@ -83,8 +83,8 @@ export default function Home() {
           />
               <h3 className="text-2xl font-thin mb-3 text-gray-600">Arrival</h3>
               <p>
-              Enjoy a stress-free welcome at the airport in Addis Ababa , Ethiopia. Our staff meets you at the gate, assists through immigration, customs and with your luggage, ensuring a smooth exit.
-              </p>
+              Enjoy a stress-free welcome at the airport in Addis Ababa, Ethiopia. Our staff will meet you at the gate, assist you through immigration, customs, and with your luggage, ensuring a smooth exit.
+      </p>
             </div>
 
 
@@ -116,7 +116,7 @@ export default function Home() {
           />
               <h3 className="text-2xl font-thin mb-3 text-gray-600">Transit</h3>
               <p>
-              We ensure you catch your connecting flight without hassle, guiding you through the  airports in Ethiopia, to your next gate efficiently.              </p>
+              We ensure you catch your connecting flight without hassle, guiding you through the airports, to your next gate efficiently.              </p>
             </div>
           </div>
         </div>
