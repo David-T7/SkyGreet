@@ -26,7 +26,7 @@ export default function Home() {
                   content="Make your travel effortless with our premium meet and greet services. We handle all aspects of airport navigation so you can focus on your journey."
               />
               <meta property="og:image" content="/images/hero-white.jpg" />
-              <meta property="og:url" content="https://yourwebsite.com" /> {/* Replace with your domain */}
+              <meta property="og:url" content="https://www.skygreetservice.com/" /> {/* Replace with your domain */}
               <meta property="og:type" content="website" />
               <link rel="icon" type="image/png" sizes="192x192" href="images/logo.png" />
           </Head>
