@@ -1,7 +1,7 @@
 import { FaWhatsapp } from 'react-icons/fa';
 import Image from 'next/image';
 import Head from 'next/head';
-
+import Testimonials from "@/components/Testimonials"; // Import the testimonial section
 export default function Home() {
   return (
       <div className="bg-white text-gray-800 min-h-screen flex flex-col">
@@ -10,7 +10,7 @@ export default function Home() {
               </title>
               <meta
                   name="description"
-                  content="Sky Greet Service offers professional airport meet and greet services in Addis Ababa, Ethiopia. From arrivals to departures, we make your travel seamless and stress-free."
+                  content="Sky Greet Service offers professional airport meet and greet service in Addis Ababa, Ethiopia. From arrivals to departures, we make your travel seamless and stress-free."
               />
               <meta name="google-site-verification" content="vqXcGe3Nam-uuxbEH-109zuEkUlHirzLyLIexm8Hm3E" />
               <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -23,7 +23,7 @@ export default function Home() {
               <meta property="og:title" content="Sky Greet Service | Airport Meet and Greet in Addis Ababa" />
               <meta
                   property="og:description"
-                  content="Make your travel effortless with our premium meet and greet services. We handle all aspects of airport navigation so you can focus on your journey."
+                  content="Make your travel effortless with our premium meet and greet service. We handle all aspects of airport navigation so you can focus on your journey."
               />
               <meta property="og:image" content="/images/hero-white.jpg" />
               <meta property="og:url" content="https://www.skygreetservice.com/" /> {/* Replace with your domain */}
@@ -49,7 +49,7 @@ export default function Home() {
           Airport Meet and Greet in Addis Ababa, Ethiopia.
           </h1>
   <p className="text-lg text-white text-center px-6 sm:px-12">
-    Make travel easier with our Airport Meet and Greet Service. We handle everything from arrivals to baggage claim and offer lounge access.
+    Make travel easier with our Airport Meet and Greet Service. We assist you with everything from arrivals to baggage claim and offer lounge access.
   </p>
   <p className="text-lg mb-8 text-white text-center px-6 sm:px-12">
   Let us handle the airport so you can focus on your trip.
@@ -126,8 +126,7 @@ export default function Home() {
   <h2 className="text-4xl font-thin mb-6 text-gray-700">Why Choose Us?</h2>
   <div className="max-w-4xl mx-auto">
     <p className="text-lg mb-6 text-gray-600">
-      From the moment you arrive to your destination, we anticipate your every
-      need. Our VIP meet and greet services ensure a stress-free and enjoyable travel experience.
+      From the moment you arrive to your destination, we assist you with all your needs.Our VIP meet and greet service ensure a stress-free and enjoyable travel experience in Addis Ababa , Ethiopia.
     </p>
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
       <div className="bg-white p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
@@ -140,7 +139,7 @@ export default function Home() {
       <div className="bg-white p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
         <h3 className="text-2xl font-normal mb-2 text-gray-800">Quick Assistance</h3>
         <p className="text-gray-600">
-          From check-in to boarding, our agents are with you every step of the way.
+          From check-in to boarding, our agents assist you every step of the way.
         </p>
       </div>
       <div className="bg-white p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-xl">
@@ -151,6 +150,9 @@ export default function Home() {
       </div>
     </div>
   </div>
+
+   {/* Testimonials Section */}
+   <Testimonials />
 
    {/* WhatsApp Contact */}
         <a
@@ -168,7 +170,7 @@ export default function Home() {
         {/* Footer */}
         <div className="bg-blue-900 text-white shadow-md py-8 text-center">
           <p className="text-md">
-          &copy; {new Date().getFullYear()} Sky Greet Service. All rights reserved. Providing exceptional meet and greet services in Addis Ababa, Ethiopia.
+          &copy; {new Date().getFullYear()} Sky Greet Service. All rights reserved. Providing exceptional meet and greet service in Addis Ababa, Ethiopia.
           </p>
         </div>
       </div>

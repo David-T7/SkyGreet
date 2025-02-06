@@ -1,13 +1,16 @@
 import { FaWhatsapp } from "react-icons/fa";
+import { MdCheckCircle, MdCancel, MdSchedule } from "react-icons/md";
 import { useRouter } from "next/navigation";
+
 export default function Price() {
   const router = useRouter();
+  
   return (
     <div className="bg-gray-100 min-h-screen flex flex-col">
       {/* Main Content */}
       <div className="flex-grow py-12 px-4">
         {/* Pricing Heading */}
-        <h2 className="text-4xl font-normal text-center mb-12 text-gray-700">
+        <h2 className="text-4xl font-normal text-center mb-12 text-gray-800">
           Our Pricing
         </h2>
 
@@ -30,8 +33,9 @@ export default function Price() {
               </ul>
             </div>
             <button
-            onClick={() => router.push("/contact")}
-            className="bg-yellow-500 text-blue-900 px-6 py-3 rounded-lg text-lg hover:bg-yellow-600 transition duration-300 w-full">
+              onClick={() => router.push("/contact")}
+              className="bg-yellow-500 text-blue-900 px-6 py-3 rounded-lg text-lg hover:bg-yellow-600 transition duration-300 w-full"
+            >
               Select Plan
             </button>
           </div>
@@ -53,8 +57,9 @@ export default function Price() {
               </ul>
             </div>
             <button
-            onClick={() => router.push("/contact")}
-            className="bg-yellow-500 text-blue-900 px-6 py-3 rounded-lg text-lg hover:bg-yellow-600 transition duration-300 w-full">
+              onClick={() => router.push("/contact")}
+              className="bg-yellow-500 text-blue-900 px-6 py-3 rounded-lg text-lg hover:bg-yellow-600 transition duration-300 w-full"
+            >
               Select Plan
             </button>
           </div>
@@ -76,27 +81,28 @@ export default function Price() {
               </ul>
             </div>
             <button
-            onClick={() => router.push("/contact")}
-            className="bg-yellow-500 text-blue-900 px-6 py-3 rounded-lg text-lg hover:bg-yellow-600 transition duration-300 w-full">
+              onClick={() => router.push("/contact")}
+              className="bg-yellow-500 text-blue-900 px-6 py-3 rounded-lg text-lg hover:bg-yellow-600 transition duration-300 w-full"
+            >
               Select Plan
             </button>
           </div>
         </div>
-        <a
-          href="https://wa.me/+251900666742" // Replace with your WhatsApp number
-          className="fixed bottom-6 right-6 bg-green-500 p-4 rounded-full shadow-lg text-white text-3xl hover:bg-green-600 transition duration-300"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaWhatsapp />
-        </a>
       </div>
+
+      {/* WhatsApp Contact */}
+      <a
+        href="https://wa.me/+251900666742"
+        className="fixed bottom-6 right-6 bg-green-500 p-4 rounded-full shadow-lg text-white text-3xl hover:bg-green-600 transition duration-300"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaWhatsapp />
+      </a>
 
       {/* Footer */}
       <footer className="bg-blue-900 text-white py-4 text-center">
-        <p className="text-md">
-          &copy; {new Date().getFullYear()} Sky Greet Service. All rights reserved.
-        </p>
+        <p className="text-md">&copy; {new Date().getFullYear()} Sky Greet Service. All rights reserved.</p>
       </footer>
     </div>
   );
