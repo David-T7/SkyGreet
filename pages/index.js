@@ -151,9 +151,6 @@ export default function Home() {
     </div>
   </div>
 
-   {/* Testimonials Section */}
-   <Testimonials />
-
    {/* WhatsApp Contact */}
         <a
           href="https://wa.me/+251900666742" // Replace with your WhatsApp number
